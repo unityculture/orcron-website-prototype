@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open index.html)",
+      "Bash(npm install:*)",
+      "Bash(sudo npm install -g @modelcontextprotocol/server-github)",
+      "Bash(npm init:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
