@@ -341,17 +341,13 @@ body {
     box-shadow: 0 15px 40px rgba(99, 102, 241, 0.2);
 }
 
-.highlight-icon {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-    display: block;
-}
 
 .highlight-item h3 {
     font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 1rem;
     font-weight: 700;
+    margin-top: 0;
 }
 
 .highlight-item p {
