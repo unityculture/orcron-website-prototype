@@ -372,32 +372,38 @@ body {
     color: #2c3e50;
 }
 
-.pain-points, .solutions, .use-cases {
+.advantages, .solutions, .use-cases {
     margin-bottom: 4rem;
 }
 
-.pain-points h3, .solutions h3, .use-cases h3 {
+.advantages h3 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
-    color: #e74c3c;
+    color: #27ae60;
 }
 
 .solutions h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
     color: #27ae60;
 }
 
 .use-cases h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
     color: #3498db;
 }
 
-.pain-grid, .solution-grid, .case-grid {
+.advantage-grid, .solution-grid, .case-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
-.pain-item, .solution-card, .case-item {
+.advantage-item, .solution-card, .case-item {
     background: white;
     padding: 2rem;
     border-radius: 10px;
@@ -406,11 +412,11 @@ body {
     transition: transform 0.3s ease;
 }
 
-.pain-item:hover, .solution-card:hover, .case-item:hover {
+.advantage-item:hover, .solution-card:hover, .case-item:hover {
     transform: translateY(-5px);
 }
 
-.pain-item h4, .solution-card h4, .case-item h4 {
+.advantage-item h4, .solution-card h4, .case-item h4 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
     color: #2c3e50;
